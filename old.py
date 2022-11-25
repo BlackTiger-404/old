@@ -1,5 +1,6 @@
-import os, sys 
-try:     
+
+import os, sys
+try:
     __import__("old").Main()
-except Exception as e:     
+except Exception as e:
     exit(str(e))
